@@ -1,0 +1,54 @@
+menustrip 
+------------------------------------------------------------
+this.Backcolor=color.red;
+
+ form2 f2= new foem2();
+ f2.show();
+*************************************************************
+
+
+
+
+scrollbar change color
+------------------------------------------
+random r=new random();
+int R,G,B;
+R = r.next (0,255);
+G = r.next (0,255);
+B = r.next (0,255);
+ this .backcolor=color.fromargb(R ,G ,B);
+ *************************************************************
+ 
+ 
+ 
+ scrollbar change color,image
+------------------------------------------
+random r=new random();
+int R,G,B;
+R = r.next (0,255);
+G = r.next (0,255);
+B = r.next (0,255);
+ this .backcolor=color.fromargb(R ,G ,B);
+ int img;
+ img=r.next(0,8);
+ picturebox1.image = imagelist1.images[img];
+ *************************************************************
+ 
+ 
+ 
+ listbox and combobox
+ ------------------------------------------------------------
+ listbox1.iterms.clear();
+ if (combobox.selectedItem =="india")
+ {
+    listbox.Items.add("mh");
+    listbox.Items.add("gj");
+ }
+ if (combobox.selectedItem =="usa")
+ {
+    listbox.Items.add("abc");
+    listbox.Items.add("xyz");
+ }
+ ***************************************************************
+ 
+ 
